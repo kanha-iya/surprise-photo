@@ -46,18 +46,18 @@ function goNextPage() {
                 openBook();
                 paper1.classList.add("flipped");
                 paper1.style.zIndex = 1;
-                v2.setAttribute("autoplay","autoplay")
-                v3.removeAttribute("autoplay")
-                v4.removeAttribute("autoplay")
-                v5.removeAttribute("autoplay")
+                // v2.setAttribute("autoplay","autoplay")
+                // v3.removeAttribute("autoplay")
+                // v4.removeAttribute("autoplay")
+                // v5.removeAttribute("autoplay")
                 break;
             case 2:
                 paper2.classList.add("flipped");
                 paper2.style.zIndex = 2;
-                v3.setAttribute("autoplay","autoplay")
-                v2.removeAttribute("autoplay")
-                v4.removeAttribute("autoplay")
-                v5.removeAttribute("autoplay")
+                // v3.setAttribute("autoplay","autoplay")
+                // v2.removeAttribute("autoplay")
+                // v4.removeAttribute("autoplay")
+                // v5.removeAttribute("autoplay")
                 break;
             case 3:
                 paper3.classList.add("flipped");
@@ -68,19 +68,19 @@ function goNextPage() {
                 paper4.classList.add("flipped");
                 paper4.style.zIndex = 4;
                 openBook(false);
-                v4.setAttribute("autoplay","autoplay")
-                v3.removeAttribute("autoplay")
-                v2.removeAttribute("autoplay")
-                v5.removeAttribute("autoplay")
+                // v4.setAttribute("autoplay","autoplay")
+                // v3.removeAttribute("autoplay")
+                // v2.removeAttribute("autoplay")
+                // v5.removeAttribute("autoplay")
                 break;
             case 5:
                 paper5.classList.add("flipped");
                 paper5.style.zIndex = 5;
                 closeBook(false);
-                v5.setAttribute("autoplay","autoplay")
-                v3.removeAttribute("autoplay")
-                v4.removeAttribute("autoplay")
-                v2.removeAttribute("autoplay")
+                // v5.setAttribute("autoplay","autoplay")
+                // v3.removeAttribute("autoplay")
+                // v4.removeAttribute("autoplay")
+                // v2.removeAttribute("autoplay")
                 break;
             default:
                 throw new Error("unkown state");
